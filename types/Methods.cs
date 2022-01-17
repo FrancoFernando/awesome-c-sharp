@@ -35,9 +35,12 @@ namespace Methods
             var (x, y, _) = Get3DPoint();
             // Check only if is an integer
             bool isInt = int.TryParse("1927", out _);
-
+            // Usable with lambda
+            Func<int, int, int> constNum = (_, _) => 42;
+			
             Console.WriteLine($"{x}, {y}");
             Console.WriteLine(isInt);
+            Console.WriteLine(constNum(0,0));
         }
     }
 }
