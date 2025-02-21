@@ -11,9 +11,6 @@ Or you can define a lambda specifying how the paired elements should be combined
 */
 
 
-using System;
-using System.Linq;
-
 namespace Linq
 {
     class Program
