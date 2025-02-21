@@ -1,0 +1,16 @@
+#Directories (all levels)
+**/.vs/
+**/_bin/
+**/bin/
+**/obj/
+**/[Dd]ebug/
+**/[Rr]elease/
+**/[Pp]ackages/
+**/[Tt]est[Rr]esult*/
+
+#Files (all levels)
+*.coverage
+*.nuget.props
+*.nuget.targets
+*.nupkg
+*.user
